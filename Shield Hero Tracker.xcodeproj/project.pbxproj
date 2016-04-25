@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA7FBB001CCE4A8A00213FF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7FBAFF1CCE4A8A00213FF3 /* main.m */; };
+		AA7FBB031CCE4A8A00213FF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7FBB021CCE4A8A00213FF3 /* AppDelegate.m */; };
+		AA7FBB091CCE4A8A00213FF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7FBB071CCE4A8A00213FF3 /* Main.storyboard */; };
+		AA7FBB0B1CCE4A8A00213FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7FBB0A1CCE4A8A00213FF3 /* Assets.xcassets */; };
+		AA7FBB0E1CCE4A8A00213FF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7FBB0C1CCE4A8A00213FF3 /* LaunchScreen.storyboard */; };
+		AA7FBB161CCE4B7400213FF3 /* heroes.json in Resources */ = {isa = PBXBuildFile; fileRef = AA7FBB151CCE4B7400213FF3 /* heroes.json */; };
+		AA7FBB1A1CCE4BEF00213FF3 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7FBB191CCE4BEF00213FF3 /* Hero.m */; };
+		AA7FBB1E1CCE50DD00213FF3 /* HeroTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7FBB1D1CCE50DD00213FF3 /* HeroTableViewController.m */; };
+		AA7FBB211CCE512700213FF3 /* HeroDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7FBB201CCE512700213FF3 /* HeroDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA7FBAFB1CCE4A8A00213FF3 /* Shield Hero Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shield Hero Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7FBAFF1CCE4A8A00213FF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA7FBB011CCE4A8A00213FF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA7FBB021CCE4A8A00213FF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA7FBB081CCE4A8A00213FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA7FBB0A1CCE4A8A00213FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA7FBB0D1CCE4A8A00213FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA7FBB0F1CCE4A8A00213FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7FBB151CCE4B7400213FF3 /* heroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heroes.json; sourceTree = "<group>"; };
+		AA7FBB181CCE4BEF00213FF3 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		AA7FBB191CCE4BEF00213FF3 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		AA7FBB1C1CCE50DD00213FF3 /* HeroTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroTableViewController.h; sourceTree = "<group>"; };
+		AA7FBB1D1CCE50DD00213FF3 /* HeroTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroTableViewController.m; sourceTree = "<group>"; };
+		AA7FBB1F1CCE512700213FF3 /* HeroDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroDetailViewController.h; sourceTree = "<group>"; };
+		AA7FBB201CCE512700213FF3 /* HeroDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA7FBAF81CCE4A8A00213FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA7FBAF21CCE4A8A00213FF3 = {
+			isa = PBXGroup;
+			children = (
+				AA7FBAFD1CCE4A8A00213FF3 /* Shield Hero Tracker */,
+				AA7FBAFC1CCE4A8A00213FF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA7FBAFC1CCE4A8A00213FF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA7FBAFB1CCE4A8A00213FF3 /* Shield Hero Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA7FBAFD1CCE4A8A00213FF3 /* Shield Hero Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				AA7FBB1B1CCE50BB00213FF3 /* View Controllers */,
+				AA7FBB171CCE4BCC00213FF3 /* Model */,
+				AA7FBB011CCE4A8A00213FF3 /* AppDelegate.h */,
+				AA7FBB021CCE4A8A00213FF3 /* AppDelegate.m */,
+				AA7FBB071CCE4A8A00213FF3 /* Main.storyboard */,
+				AA7FBB0A1CCE4A8A00213FF3 /* Assets.xcassets */,
+				AA7FBB0C1CCE4A8A00213FF3 /* LaunchScreen.storyboard */,
+				AA7FBB0F1CCE4A8A00213FF3 /* Info.plist */,
+				AA7FBAFE1CCE4A8A00213FF3 /* Supporting Files */,
+			);
+			path = "Shield Hero Tracker";
+			sourceTree = "<group>";
+		};
+		AA7FBAFE1CCE4A8A00213FF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7FBB151CCE4B7400213FF3 /* heroes.json */,
+				AA7FBAFF1CCE4A8A00213FF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA7FBB171CCE4BCC00213FF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA7FBB181CCE4BEF00213FF3 /* Hero.h */,
+				AA7FBB191CCE4BEF00213FF3 /* Hero.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AA7FBB1B1CCE50BB00213FF3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA7FBB1C1CCE50DD00213FF3 /* HeroTableViewController.h */,
+				AA7FBB1D1CCE50DD00213FF3 /* HeroTableViewController.m */,
+				AA7FBB1F1CCE512700213FF3 /* HeroDetailViewController.h */,
+				AA7FBB201CCE512700213FF3 /* HeroDetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA7FBAFA1CCE4A8A00213FF3 /* Shield Hero Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7FBB121CCE4A8A00213FF3 /* Build configuration list for PBXNativeTarget "Shield Hero Tracker" */;
+			buildPhases = (
+				AA7FBAF71CCE4A8A00213FF3 /* Sources */,
+				AA7FBAF81CCE4A8A00213FF3 /* Frameworks */,
+				AA7FBAF91CCE4A8A00213FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shield Hero Tracker";
+			productName = "Shield Hero Tracker";
+			productReference = AA7FBAFB1CCE4A8A00213FF3 /* Shield Hero Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA7FBAF31CCE4A8A00213FF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Training;
+				TargetAttributes = {
+					AA7FBAFA1CCE4A8A00213FF3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = AA7FBAF61CCE4A8A00213FF3 /* Build configuration list for PBXProject "Shield Hero Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA7FBAF21CCE4A8A00213FF3;
+			productRefGroup = AA7FBAFC1CCE4A8A00213FF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA7FBAFA1CCE4A8A00213FF3 /* Shield Hero Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA7FBAF91CCE4A8A00213FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7FBB0E1CCE4A8A00213FF3 /* LaunchScreen.storyboard in Resources */,
+				AA7FBB161CCE4B7400213FF3 /* heroes.json in Resources */,
+				AA7FBB0B1CCE4A8A00213FF3 /* Assets.xcassets in Resources */,
+				AA7FBB091CCE4A8A00213FF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA7FBAF71CCE4A8A00213FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7FBB031CCE4A8A00213FF3 /* AppDelegate.m in Sources */,
+				AA7FBB211CCE512700213FF3 /* HeroDetailViewController.m in Sources */,
+				AA7FBB1E1CCE50DD00213FF3 /* HeroTableViewController.m in Sources */,
+				AA7FBB001CCE4A8A00213FF3 /* main.m in Sources */,
+				AA7FBB1A1CCE4BEF00213FF3 /* Hero.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA7FBB071CCE4A8A00213FF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7FBB081CCE4A8A00213FF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA7FBB0C1CCE4A8A00213FF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7FBB0D1CCE4A8A00213FF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA7FBB101CCE4A8A00213FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA7FBB111CCE4A8A00213FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA7FBB131CCE4A8A00213FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shield Hero Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.training.Shield-Hero-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA7FBB141CCE4A8A00213FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shield Hero Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.training.Shield-Hero-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA7FBAF61CCE4A8A00213FF3 /* Build configuration list for PBXProject "Shield Hero Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7FBB101CCE4A8A00213FF3 /* Debug */,
+				AA7FBB111CCE4A8A00213FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7FBB121CCE4A8A00213FF3 /* Build configuration list for PBXNativeTarget "Shield Hero Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7FBB131CCE4A8A00213FF3 /* Debug */,
+				AA7FBB141CCE4A8A00213FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA7FBAF31CCE4A8A00213FF3 /* Project object */;
+}
