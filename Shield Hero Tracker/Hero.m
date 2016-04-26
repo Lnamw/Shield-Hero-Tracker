@@ -10,4 +10,15 @@
 
 @implementation Hero
 
+-(instancetype)initWithName:(NSString *)name withHomeWorld:(NSString *)homeWorls withPowers:(NSString *)powers
+{
+    if (self = [super init]) {
+        _name = name;
+        _homeWorld = homeWorls;
+        _powers = powers;
+    }
+    return self;
+}
+
+
 @end

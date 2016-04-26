@@ -10,9 +10,10 @@
 
 @interface Hero : NSObject
 
-@property (nonatomic, strong)NSString *name;
-@property (nonatomic, strong)NSString *homeWorld;
-@property (nonatomic, strong)NSString *powers;
+@property (nonatomic, copy, readonly)NSString *name;
+@property (nonatomic, copy, readonly)NSString *homeWorld;
+@property (nonatomic, copy, readonly)NSString *powers;
 
+-(instancetype)initWithName:(NSString *)name withHomeWorld:(NSString *)homeWorls withPowers:(NSString *)powers;
 
 @end

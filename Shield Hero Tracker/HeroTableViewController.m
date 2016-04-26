@@ -25,10 +25,11 @@
     
     for (NSDictionary *dict in heroList) {
         
-        Hero * newHero = [[Hero alloc]init];
-        newHero.name = dict[@"name"];  // or: newHero.name = [dict objectForKey:@"name"];
-        newHero.homeWorld = dict[@"homeworld"];
-        newHero.powers = dict[@"powers"];
+//        Hero * newHero = [[Hero alloc]init];
+//        newHero.name = dict[@"name"];  // or: newHero.name = [dict objectForKey:@"name"];
+//        newHero.homeWorld = dict[@"homeworld"];
+//        newHero.powers = dict[@"powers"];
+        Hero *newHero = [[Hero alloc] initWithName:dict[@"name"] withHomeWorld:dict[@"homeworld"] withPowers:dict[@"powers"]];
         
         [self.heroes addObject:newHero];
     }
